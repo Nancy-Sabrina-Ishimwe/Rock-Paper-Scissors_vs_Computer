@@ -1,7 +1,7 @@
-const playerSelection = document.querySelector("#playerSelection");
-const computerSelection = document.querySelector("#computerSelection");
+const playerSelection = document.querySelector("#playerText");
+const computerSelection = document.querySelector("#computerText");
 const resultText = document.querySelector("#resultText");
-const choiceBtns = document.querySelectorAll(".choiceBtn");
+const choiceBtns = document.querySelectorAll(".btn");
 let player;
 let computer;
 let result;
