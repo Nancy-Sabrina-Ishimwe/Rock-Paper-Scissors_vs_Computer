@@ -5,15 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RockPaperScissorsVsComputer</title>
     <link rel="stylesheet" href="style.css">
-    <script src="index.js"></script>
+    
 </head>
 <body>
-    <h2>computer choice: <span id="computer-choice"></span></h2>
-    <h2>user choice: <span id="user-choice"></span></h2>
-    <h2>results: <span id="result"></span></h2>
+    <div id="gameDiv">
+        <h1 class="gameText" id="playerText">Player: </h1>
+        <h1 class="gameText" id="computerText">Computer: </h1>
+        <h1 class="gameText" id="resultText">Result: </h1>
 
-    <button id="rock">Rock</button>
-    <button id="paper">Paper</button>
-    <button id="scissors">Scissors</button>
+        <button class="choiceBtn">ROCK</button>
+        <button class="choiceBtn">PAPER</button>
+        <button class="choiceBtn">SCISSORS</button>
+    </div>
+    <script src="index.js"></script>
 </body>
 </html>
